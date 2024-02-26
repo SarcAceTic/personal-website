@@ -11,6 +11,10 @@ export default {
   ],
   darkMode: 'selector',
   theme: {
+    fontFamily: {
+      'monts': ['"Montserrat"', 'sans-serif'],
+      'pops': ['"Poppins"', 'sans-serif']
+    },
     extend: {
       colors: {
         'primary-50': 'rgb(var(--primary-50))',
