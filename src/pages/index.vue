@@ -1,5 +1,5 @@
 <template>
- <div class="flex-1 p-4">
+ <div>
   <WhoIAm class="my-4 mb-8" />
   <Projects class="my-4 mb-8" />
   <FAQSection class="my-4" />

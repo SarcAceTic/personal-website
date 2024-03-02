@@ -22,6 +22,7 @@ export default defineNuxtConfig({
  devtools: { enabled: true },
  modules: ["@nuxtjs/color-mode", "nuxt-primevue"],
  css: ["~/assets/css/main.css"],
+ srcDir: "./src",
  postcss: {
   plugins: {
    tailwindcss: {},
