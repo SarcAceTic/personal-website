@@ -23,9 +23,11 @@
       icon="pi pi-bars"
       :pt="menuHeaderButton"
       @click="headerSidebar = true"></Button>
-     <Sidebar
+     
+    </div>
+    <Sidebar
       v-model:visible="headerSidebar"
-      :pt="{ root: 'w-72', content: '!p-0' }"
+      :pt="{ root: 'w-72 overscroll-none overflow-scroll', content: '!p-0' }"
       :pt-options="{ mergeProps: true }">
       <template #header>
        <h2 class="text-xl">Menu</h2>
@@ -63,7 +65,6 @@
         icon="pi pi-github"></Button>
       </div>
      </Sidebar>
-    </div>
    </header>
   </nav>
  </div>
