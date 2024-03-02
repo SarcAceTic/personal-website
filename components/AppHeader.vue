@@ -12,7 +12,7 @@
      <div class="hidden md:inline">
       <Button class="mr-4" :pt="headerButton">Home</Button>
       <Button class="mx-4" :pt="headerButton">About</Button>
-      <Button class="ml-4" :pt="headerButton">Blog</Button>
+      <Button v-ripple class="ml-4 p-ripple" :pt="headerButton">Blog</Button>
      </div>
      <div class="hidden md:flex">
       <Divider layout="vertical" />
@@ -78,7 +78,7 @@ const headerButton = ref({
 });
 const menuHeaderButton = ref({
  root:
-  "bg-transparent transition hover:bg-zinc-800 p-2 text-slate-200 my-auto md:hidden rounded-full",
+  "bg-transparent transition hover:bg-zinc-900 p-2 text-slate-200 my-auto md:hidden rounded-full",
 });
 </script>
 

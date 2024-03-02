@@ -1,7 +1,7 @@
 <template>
  <div>
   <section class="mx-2">
-    <h2 class="font-pops text-3xl uppercase mb-4">Not So FAQ</h2>
+   <h2 class="font-pops text-3xl uppercase mb-4">Not So FAQ</h2>
    <Accordion :multiple="true">
     <AccordionTab :pt="faqAccordion" v-for="f in faqs">
      <template #header>
@@ -25,7 +25,8 @@ const faqs = [
  },
  {
   header: "What the hell does your name mean?",
-  answer: "My name came from the word 'Sarcastic'. I tweaked some stuff, and I made 3 names out of one. Sarc, because I just liked the sound of it. Ace, because I had a favorite character whose name was Ace, and Tic because I used to love Tic-Tac-Toe."
+  answer:
+   "My name came from the word 'Sarcastic'. I tweaked some stuff, and I made 3 names out of one. Sarc, because I just liked the sound of it. Ace, because I had a favorite character whose name was Ace, and Tic because I used to love Tic-Tac-Toe.",
  },
  {
   header: "Why are you so chronically online?",

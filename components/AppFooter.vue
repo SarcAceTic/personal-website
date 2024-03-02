@@ -20,7 +20,12 @@
       <span class="pi pi-heart-fill text-pink-600"></span>
      </p>
     </div>
-    <h5 class="text-gray-500">&copy; 2024 SarcAceTic. All Rights Reserved.</h5>
+    <h5 class="text-gray-500">
+     &copy; 2024 SarcAceTic. All Rights Reserved.
+     <br />
+     I do not own the images or characters (unless explicitly said so) I use on
+     this website.
+    </h5>
    </div>
   </footer>
  </div>
