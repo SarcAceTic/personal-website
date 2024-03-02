@@ -1,15 +1,11 @@
 <template>
-    <div class="flex flex-col min-h-screen">
-        <AppHeader />
-        <slot />
-        <AppFooter />
-    </div>
+ <div class="flex flex-col min-h-screen">
+  <AppHeader />
+  <slot />
+  <AppFooter />
+ </div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style>
-
-</style>
+<style></style>

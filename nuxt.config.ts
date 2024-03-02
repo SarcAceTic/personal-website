@@ -2,10 +2,9 @@
 export default defineNuxtConfig({
  app: {
   head: {
-    title: "SarcAceTic",
+   title: "SarcAceTic",
    link: [
     { rel: "stylesheet", href: "/node_modules/primeicons/primeicons.css" },
-
     {
      rel: "stylesheet",
      type: "text/css",
@@ -13,10 +12,10 @@ export default defineNuxtConfig({
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css",
     },
     {
-    rel: "icon",
-    type: "image/png",
-    href: "/sat-favicon.png"
-    }
+     rel: "icon",
+     type: "image/png",
+     href: "/sat-favicon.png",
+    },
    ],
   },
  },

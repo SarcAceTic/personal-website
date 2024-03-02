@@ -1,6 +1,6 @@
 <template>
  <div>
-  <footer class="p-2 text-gray-400 bg-zinc-900">
+  <footer class="p-2 text-gray-400 bg-zinc-800">
    <div class="p-3">
     <h3>Made with:</h3>
     <div class="my-4">

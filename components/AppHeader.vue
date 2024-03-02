@@ -1,11 +1,11 @@
 <template>
  <div>
   <nav>
-   <header class="p-4 text-gray-100 bg-zinc-900 shadow-2xl">
+   <header class="p-4 text-gray-100 bg-zinc-800 shadow-2xl">
     <div class="mx-8 my-auto flex justify-between content-center">
      <div class="flex">
       <Image src="/sat-logo.png" class="h-auto w-20 my-auto mr-6" />
-      <h2 class="my-auto font-pops text-xl hidden md:inline">
+      <h2 class="my-auto font-pops text-xl hidden lg:inline">
        <i class="font-bold not-italic text-primary-600">S</i>arc<i class="font-bold not-italic text-primary-600">A</i>ce<i class="font-bold not-italic text-primary-600">T</i>ic
       </h2>
      </div>
@@ -70,7 +70,6 @@
 </template>
 
 <script setup>
-import "primeicons/primeicons.css";
 import { ref } from "vue";
 
 const headerSidebar = ref(false);

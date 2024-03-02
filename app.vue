@@ -1,9 +1,11 @@
 <template>
   <NuxtLayout>
-    <NuxtPage />
+    <NuxtPage class="dark:bg-zinc-900 dark:text-gray-200" />
   </NuxtLayout>
 </template>
 
 <script setup>
+import "primeicons/primeicons.css";
+
 const colorMode = useColorMode()
 </script>
