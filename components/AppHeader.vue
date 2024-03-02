@@ -1,7 +1,7 @@
 <template>
  <div>
   <nav>
-   <header class="p-4 text-gray-100 bg-zinc-800 shadow-2xl">
+   <header class="z-40 p-4 text-gray-100 bg-zinc-800/[0.9] backdrop-blur-sm shadow-2xl fixed top-0 left-0 right-0">
     <div class="mx-8 my-auto flex justify-between content-center">
      <div class="flex">
       <Image src="/sat-logo.png" class="h-auto w-20 my-auto mr-6" />

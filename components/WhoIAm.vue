@@ -4,14 +4,14 @@
    <div class="flex justify-center mb-4">
     <Image class="w-32 h-auto" src="/StelleBell.png" />
    </div>
-   <h2 class="text-pops text-center text-3xl uppercase">Who I am</h2>
+   <h2 class="text-pops text-center text-3xl uppercase">Who am I?</h2>
    <Divider class="my-4" />
    <p>
     I call myself
     <b>SarcAceTic</b>
     on the internet, but my real name is
-    <b>Zhell</b>
-    , though I prefer to be called by the former. I'm an Indonesian teenaged
+    <b>Zhell</b>, 
+    though I prefer to be called by the former. I'm an Indonesian teenaged
     hobbyist, and my main hobby is programming, specifically web development. I
     got into making Discord bots in the past, but I left all that behind and now
     I'm here.
