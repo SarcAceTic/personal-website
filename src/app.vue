@@ -7,13 +7,7 @@
 <script setup>
 import "./primeicons/primeicons.css";
 useHead({
- link: [
-  {
-   rel: "icon",
-   type: "image/png",
-   href: "/sat-favicon.png",
-  },
- ],
+ 
 });
 
 const colorMode = useColorMode();

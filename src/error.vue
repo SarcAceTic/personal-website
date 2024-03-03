@@ -3,7 +3,7 @@
   <div class="flex justify-center mb-4 mt-10">
    <Image class="w-32 h-auto" src="/MarchSweat.png" />
   </div>
-  <h2 class="text-4xl uppercase font-pops mt-4">Uh oh...</h2>
+  <h2 class="text-4xl uppercase font-pops mt-4">Uh oh!</h2>
   <p>It seems you've encountered an error...</p>
   <h1 class="font-pops text-5xl font-semibold mt-10">
    {{ error.statusCode }}
