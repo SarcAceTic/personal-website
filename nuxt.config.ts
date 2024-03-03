@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   head: {
    title: "SarcAceTic",
    link: [
-    { rel: "stylesheet", href: "/node_modules/primeicons/primeicons.css" },
     {
      rel: "stylesheet",
      type: "text/css",
