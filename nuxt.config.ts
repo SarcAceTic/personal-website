@@ -11,11 +11,6 @@ export default defineNuxtConfig({
      href:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css",
     },
-    {
-     rel: "icon",
-     type: "image/png",
-     href: "/sat-favicon.png",
-    },
    ],
   },
  },
