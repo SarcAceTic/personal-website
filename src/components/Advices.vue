@@ -15,9 +15,11 @@
     because of monetary problems, motivation, disabilities, etc. If you've felt
     these, which almost everyone does... Then it may help reading these below.
    </p>
+   <Divider />
    <h3 class="font-pops uppercase text-2xl text-center my-10 font-semibold">
     Don't be scared to start out
    </h3>
+   <Divider />
    <p>
     In this day and age, there are just too much information to digest and
     process. But, how are you going to start if you're just scared forever? I
@@ -35,9 +37,11 @@
     able to make a basic header with 6 hours of time to making a whole landing
     page in just an hour!
    </p>
+   <Divider />
    <h3 class="font-pops uppercase text-2xl text-center my-10 font-semibold">
     You don't need a lot of money
    </h3>
+   <Divider />
    <p>
     There seems to be this misconception that you need a very high budget or
     capital to start learning stuff and doing things. Guess what?
@@ -66,9 +70,11 @@
     work out, you only need your bodyweight. When you write, you only need your
     keyboard. It's all just about time and effort!
    </p>
+   <Divider />
    <h3 class="font-pops uppercase text-2xl text-center my-10 font-semibold">
     You don't need talent
    </h3>
+   <Divider />
    <p>
     I HATE this! This is one of my biggest pet peeves! You
     <b>don't need</b>
@@ -97,6 +103,28 @@
     Because I enjoyed doing it. I enjoyed the process, and I truly enjoyed the
     results of my work. It doesn't matter if you're talented or not, as long as
     you are improving, and you truly enjoy the process of the creation.
+   </p>
+   <Divider />
+   <h3 class="font-pops uppercase text-2xl text-center my-10 font-semibold">
+    Talk to someone
+   </h3>
+   <Divider />
+   <p>
+    I know it might be hard at first to reach out to someone... but, it's
+    extremely important! Whether you're feeling sad, happy, angry, sleepy,
+    bored, proud, you should really reach out to people you care about, and tell
+    them how you feel! That's the
+    <b>integral part</b>
+    of avoiding burnt out... Talk to someone!
+    <Image class="mt-6 opacity-75" src="ReachingOut.jpg" />
+    <i class="text-gray-400">Girl reaching out</i>
+    <br />
+    <br />
+    This is how I improve too! I often clear out my mind with so many people,
+    and ehem...
+    <i>ranting</i>
+    with them also. It helps you relax, calm down, and it makes you want to keep
+    going! Go out there and have some interaction with people!
    </p>
   </section>
  </div>
