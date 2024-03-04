@@ -29,8 +29,8 @@ const faqs = [
    "My name came from the word 'Sarcastic'. I tweaked some stuff, and I made 3 names out of one. Sarc, because I just liked the sound of it. Ace, because I had a favorite character whose name was Ace, and Tic because I used to love Tic-Tac-Toe.",
  },
  {
-  header: "What's up with all the Stelle stickers?",
-  answer: "She's cute."
+  header: "What's up with all the HSR stickers?",
+  answer: "They're cute."
  },
  {
   header: "Why are you so chronically online?",

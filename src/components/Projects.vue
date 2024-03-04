@@ -51,10 +51,13 @@
         <p class="text-gray-400 font-normal text-base text-center">
          Made on {{ p.data.date }}
         </p>
-        <Divider />
+        <Divider class="-mb-4" />
        </template>
        <template #content>
-        <p class="-mt-4 line-clamp-4">
+        <Button v-if="p.data.link" :pt="{ root: 'mb-2 rounded p-1 transition dark:hover:bg-zinc-900', label: 'text-purple-500' }" icon="pi pi-eye" label="Preview"></Button>
+        <div v-else class="flex flex-row mb-2"><span class="pi pi-eye-slash" /> <p class="ml-2">No preview</p></div>
+        
+        <p class="line-clamp-4 md:line-clamp-6` md:h-36">
          {{ p.data.description }}
         </p>
        </template>
@@ -62,6 +65,7 @@
      </div>
     </template>
    </Carousel>
+
   </section>
  </div>
 </template>

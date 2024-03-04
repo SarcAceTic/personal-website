@@ -10,8 +10,8 @@
     I call myself
     <b>SarcAceTic</b>
     on the internet, but my real name is
-    <b>Zhell</b>, 
-    though I prefer to be called by the former. I'm an Indonesian teenaged
+    <b>Zhell</b>
+    , though I prefer to be called by the former. I'm an Indonesian teenaged (15 years old)
     hobbyist, and my main hobby is programming, specifically web development. I
     got into making Discord bots in the past, but I left all that behind and now
     I'm here.
@@ -27,6 +27,12 @@
     expenses with the aforementioned hobbies, so I can continue to do even more
     interesting, productive and goofy things! I am happy with how things have
     turned out recently with programming, and I wish to do even more.
+    <br />
+    <br />
+    Below are advices that I have written for future hobbyists and self
+    learners, or even current ones. I hope the things I've listed below could
+    help you in your journey, and I'll also be giving you my personal
+    experience.
    </p>
   </section>
  </div>
