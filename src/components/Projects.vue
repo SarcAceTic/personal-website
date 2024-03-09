@@ -16,28 +16,38 @@
    <div
     class="bg-gradient-to-r from-blue-500 to-purple-500 rounded p-1 align-middle">
     <Card class="!bg-zinc-800">
+     <div></div>
      <template #header>
       <Image src="/PersonalWebsite.png" />
      </template>
      <template #title>
-      <h4 class="font-pops text-xl font-light text-center">Personal Website</h4>
-      <p class="text-gray-400 font-normal text-base text-center">
+      <h4 class="lg:mx-10 font-pops text-xl font-light text-center">
+       Personal Website
+      </h4>
+      <p class="lg:mx-10 text-gray-400 font-normal text-base text-center">
        Made on 25th Feb 2024
       </p>
-      <Divider />
+
+      <Divider class="lg:!w-5/6 !mx-auto" />
      </template>
      <template #content>
-      <p class="-mt-4">
+      <p class="-mt-4 lg:w-5/6 mx-auto">
        It's the same website you're in! This is the first project I made with
        Nuxt and Tailwind! So I find it special in my heart, and also because
-       it's obviously my main website.
+       it's obviously my main website. And it's the first time I also ever got
+       to work on CMS and backend stuff!
       </p>
      </template>
     </Card>
    </div>
    <Divider class="my-6" />
 
-   <Carousel :value="projects" circular :numVisible="1" :numScroll="1">
+   <Carousel
+    class="sm:hidden"
+    :value="projects"
+    circular
+    :numVisible="1"
+    :numScroll="1">
     <template #item="p">
      <div class="bg-purple-500 rounded my-8 p-1 mx-2 align-middle">
       <Card class="!bg-zinc-800">
@@ -54,9 +64,19 @@
         <Divider class="-mb-4" />
        </template>
        <template #content>
-        <Button v-if="p.data.link" :pt="{ root: 'mb-2 rounded p-1 transition dark:hover:bg-zinc-900', label: 'text-purple-500' }" icon="pi pi-eye" label="Preview"></Button>
-        <div v-else class="flex flex-row mb-2"><span class="pi pi-eye-slash" /> <p class="ml-2">No preview</p></div>
-        
+        <Button
+         v-if="p.data.link"
+         :pt="{
+          root: 'mb-2 rounded p-1 transition dark:hover:bg-zinc-900',
+          label: 'text-purple-500',
+         }"
+         icon="pi pi-eye"
+         label="Preview"></Button>
+        <div v-else class="flex flex-row mb-2">
+         <span class="pi pi-eye-slash" />
+         <p class="ml-2">No preview</p>
+        </div>
+
         <p class="line-clamp-4 md:line-clamp-6` md:h-36">
          {{ p.data.description }}
         </p>
@@ -65,12 +85,50 @@
      </div>
     </template>
    </Carousel>
+   <div class="sm:grid hidden gap-2 grid-cols-2 md:gap-x-6 2xl:grid-cols-3">
+    <div
+     v-for="p in projects"
+     class="bg-purple-500 rounded my-8 p-1 mx-2 align-middle">
+     <Card class="!bg-zinc-800">
+      <template #header>
+       <Image :src="p.image" />
+      </template>
+      <template #title>
+       <h4 class="font-pops text-xl font-light text-center">
+        {{ p.name }}
+       </h4>
+       <p class="text-gray-400 font-normal text-base text-center">
+        Made on {{ p.date }}
+       </p>
+       <Divider class="-mb-4" />
+      </template>
+      <template #content>
+       <NuxtLink v-if="p.link" :to="p.link" target="_blank"><Button
+        :pt="{
+         root: 'mb-2 rounded p-1 transition dark:hover:bg-zinc-900',
+         label: 'text-purple-500',
+        }"
+        icon="pi pi-eye"
+        label="Preview"></Button></NuxtLink>
+       <div v-else class="flex flex-row mb-2">
+        <span class="pi pi-eye-slash" />
+        <p class="ml-2">No preview</p>
+       </div>
 
+       <p class="line-clamp-4 md:line-clamp-6 md:h-36">
+        {{ p.description }}
+       </p>
+      </template>
+     </Card>
+    </div>
+   </div>
   </section>
  </div>
 </template>
 
 <script setup>
+import { ref } from "vue";
+
 const projects = [
  {
   name: "Smile Web",

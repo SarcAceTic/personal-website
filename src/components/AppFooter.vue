@@ -23,7 +23,7 @@
     <h5 class="text-gray-500">
      &copy; 2024 SarcAceTic. All Rights Reserved.
      <br />
-     I do not own the images or characters (unless explicitly said so) I use on
+     I do not own the images or characters (other than project screenshots) I use on
      this website.
     </h5>
    </div>

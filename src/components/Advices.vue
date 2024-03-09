@@ -15,19 +15,19 @@
     because of monetary problems, motivation, disabilities, etc. If you've felt
     these, which almost everyone does... Then it may help reading these below.
    </p>
-   <Divider />
+   <Divider class="mt-10" />
    <h3 class="font-pops uppercase text-2xl text-center my-10 font-semibold">
     Don't be scared to start out
    </h3>
-   <Divider />
+   <Divider class="mb-10" />
    <p>
     In this day and age, there are just too much information to digest and
     process. But, how are you going to start if you're just scared forever? I
     know it seems daunting, and I know it seems really hard at first, but if you
     keep being consistent, optimistic, and taking little steps, you're suddenly
     way above where you just started! Trust me, that's how I progressed too.
-    <Image class="mt-6 opacity-75" src="/SmileSS.png" />
-    <i class="text-gray-400">My first website design</i>
+    <Image class="mt-6 opacity-75 mt-8" src="/SmileSS.png" />
+    <i class="text-gray-400 mb-8">My first website design</i>
     <br />
     <br />
     Within my personal experience, when I just first started out web
@@ -37,11 +37,11 @@
     able to make a basic header with 6 hours of time to making a whole landing
     page in just an hour!
    </p>
-   <Divider />
+   <Divider class="mt-10" />
    <h3 class="font-pops uppercase text-2xl text-center my-10 font-semibold">
     You don't need a lot of money
    </h3>
-   <Divider />
+   <Divider class="mb-10" />
    <p>
     There seems to be this misconception that you need a very high budget or
     capital to start learning stuff and doing things. Guess what?
@@ -55,8 +55,8 @@
     <b>time and effort.</b>
     That's the cheat code, and it'll get you so far than money will ever do.
     Don't believe me? Let me give you my experiences!
-    <Image class="mt-6 opacity-75" src="/ArtProcess.png" />
-    <i class="text-gray-400">My beginner digital drawing</i>
+    <Image class="mt-6 opacity-75 mt-8" src="/ArtProcess.png" />
+    <i class="text-gray-400 mb-8">My beginner digital drawing</i>
     <br />
     <br />
     I know that's really bad artwork, but I pulled this off without any huge
@@ -70,11 +70,11 @@
     work out, you only need your bodyweight. When you write, you only need your
     keyboard. It's all just about time and effort!
    </p>
-   <Divider />
+   <Divider class="mt-10" />
    <h3 class="font-pops uppercase text-2xl text-center my-10 font-semibold">
     You don't need talent
    </h3>
-   <Divider />
+   <Divider class="mb-10" />
    <p>
     I HATE this! This is one of my biggest pet peeves! You
     <b>don't need</b>
@@ -94,8 +94,12 @@
     Hell, it doesn't even affect your journey that much on a significant level!
     There are talented people out there who are too lazy to actually do
     anything!
-    <Image class="mt-6 opacity-75" src="/TalentMyth.jpg" />
-    <i class="text-gray-400">Talent Myth</i>
+    <Image class="w-full h-auto opacity-75 mt-8">
+     <template #image>
+      <img src="/TalentMyth.jpg" class="w-full h-auto">
+     </template>
+    </Image>
+    <i class="text-gray-400 mb-8">Talent Myth</i>
     <br />
     <br />
     I don't think I am talented. Yet, I still did the things that I do.
@@ -104,11 +108,11 @@
     results of my work. It doesn't matter if you're talented or not, as long as
     you are improving, and you truly enjoy the process of the creation.
    </p>
-   <Divider />
+   <Divider class="mt-10" />
    <h3 class="font-pops uppercase text-2xl text-center my-10 font-semibold">
     Talk to someone
    </h3>
-   <Divider />
+   <Divider class="mb-10" />
    <p>
     I know it might be hard at first to reach out to someone... but, it's
     extremely important! Whether you're feeling sad, happy, angry, sleepy,
@@ -116,8 +120,12 @@
     them how you feel! That's the
     <b>integral part</b>
     of avoiding burnt out... Talk to someone!
-    <Image class="mt-6 opacity-75" src="ReachingOut.jpg" />
-    <i class="text-gray-400">Girl reaching out</i>
+    <Image class="mt-4 w-full h-auto mt-8 opacity-75">
+     <template #image>
+      <img src="/ReachingOut.jpg" class="w-full h-auto">
+     </template>
+    </Image>
+    <i class="text-gray-400 mb-8">Girl reaching out</i>
     <br />
     <br />
     This is how I improve too! I often clear out my mind with so many people,
@@ -130,6 +138,7 @@
  </div>
 </template>
 
-<script setup></script>
+<script setup>
+</script>
 
 <style scoped></style>

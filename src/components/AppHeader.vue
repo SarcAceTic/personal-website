@@ -10,20 +10,19 @@
       </h2>
      </div>
      <div class="hidden md:inline">
-      <Button class="mr-4" :pt="headerButton">Home</Button>
-      <Button class="mx-4" :pt="headerButton">About</Button>
-      <Button v-ripple class="ml-4 p-ripple" :pt="headerButton">Blog</Button>
+      <NuxtLink to="/"><Button class="mr-4" :pt="headerButton">Home</Button></NuxtLink>
+      <NuxtLink to="/about"><Button class="mx-4" :pt="headerButton">About</Button></NuxtLink>
+      <NuxtLink to="/blog"><Button class="ml-4 p-ripple" :pt="headerButton">Blog</Button></NuxtLink>
      </div>
      <div class="hidden md:flex">
       <Divider layout="vertical" />
       <Button class="mx-3" icon="pi pi-moon"></Button>
-      <Button class="ml-3" icon="pi pi-github"></Button>
+      <NuxtLink to="https://github.com/SarcAceTic/personal-website.git" target="_blank"><Button class="ml-3" icon="pi pi-github"></Button></NuxtLink>
      </div>
      <Button
       icon="pi pi-bars"
       :pt="menuHeaderButton"
       @click="headerSidebar = true"></Button>
-     
     </div>
     <Sidebar
       v-model:visible="headerSidebar"
@@ -36,21 +35,21 @@
       <div class="w-full">
        <h3 class="font-pops font-medium text-xl mb-6 ml-4">NAVIGATION</h3>
        <ul class="flex flex-col">
-        <li
+        <NuxtLink to="/"><li
          class="flex py-4 transition ease-in-out duration-300 hover:dark:bg-surface-900 hover:dark:text-primary-500">
          <i class="pi pi-home my-auto ml-5 mr-8"></i>
          <p class="text-lg">Home</p>
-        </li>
-        <li
+        </li></NuxtLink>
+        <NuxtLink to="/about"><li
          class="flex py-4 transition ease-in-out duration-300 hover:dark:bg-surface-900 hover:dark:text-primary-500">
          <i class="pi pi-info my-auto ml-5 mr-8"></i>
          <p class="text-lg">About</p>
-        </li>
-        <li
+        </li></NuxtLink>
+        <NuxtLink to="/blog"><li
          class="flex py-4 transition ease-in-out duration-300 hover:dark:bg-surface-900 hover:dark:text-primary-500">
          <i class="pi pi-book my-auto ml-5 mr-8"></i>
          <p class="text-lg">Blog</p>
-        </li>
+        </li></NuxtLink>
        </ul>
        <h3 class="font-pops font-medium text-xl mb-6 mt-4 ml-4">
         MISCELLANEOUS
@@ -59,10 +58,10 @@
         class="mx-3 mb-5 w-56"
         label="Light Mode"
         icon="pi pi-moon"></Button>
-       <Button
+        <NuxtLink to="https://github.com/SarcAceTic/personal-website.git" target="_blank"><Button
         class="ml-3 w-56"
         label="Github Repository"
-        icon="pi pi-github"></Button>
+        icon="pi pi-github"></Button></NuxtLink>
       </div>
      </Sidebar>
    </header>
@@ -86,5 +85,8 @@ const menuHeaderButton = ref({
 <style scoped>
 .headerButton {
  @apply text-base px-5 py-3 hover:bg-zinc-950 rounded-md font-pops transition;
+}
+.router-link-active {
+  @apply text-purple-500;
 }
 </style>
