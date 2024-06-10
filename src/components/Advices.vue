@@ -26,7 +26,7 @@
     know it seems daunting, and I know it seems really hard at first, but if you
     keep being consistent, optimistic, and taking little steps, you're suddenly
     way above where you just started! Trust me, that's how I progressed too.
-    <Image class="mt-6 opacity-75 mt-8" src="/SmileSS.png" />
+    <Image class="opacity-75 mt-8" src="/SmileSS.png" />
     <i class="text-gray-400 mb-8">My first website design</i>
     <br />
     <br />
@@ -55,7 +55,7 @@
     <b>time and effort.</b>
     That's the cheat code, and it'll get you so far than money will ever do.
     Don't believe me? Let me give you my experiences!
-    <Image class="mt-6 opacity-75 mt-8" src="/ArtProcess.png" />
+    <Image class="opacity-75 mt-8" src="/ArtProcess.png" />
     <i class="text-gray-400 mb-8">My beginner digital drawing</i>
     <br />
     <br />
@@ -120,7 +120,7 @@
     them how you feel! That's the
     <b>integral part</b>
     of avoiding burnt out... Talk to someone!
-    <Image class="mt-4 w-full h-auto mt-8 opacity-75">
+    <Image class="w-full h-auto mt-8 opacity-75">
      <template #image>
       <img src="/ReachingOut.jpg" class="w-full h-auto">
      </template>
